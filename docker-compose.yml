@@ -3,6 +3,6 @@ services:
     build:
       context: .
       args:
-        - BASE_DIR=/opt/ml/tttt/code
-        - RESOURCES_DIR=/opt/ml
+        - BASE_DIR=/opt/ml/code
+        - RESOURCES_DIR=/opt/ml/resources
     command: python apps/test.py
