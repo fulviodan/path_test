@@ -1,0 +1,8 @@
+services:
+  path_test:
+    build:
+      context: .
+      args:
+        - BASE_DIR=/opt/ml/tttt/code
+        - RESOURCES_DIR=/opt/ml
+    command: python apps/test.py
